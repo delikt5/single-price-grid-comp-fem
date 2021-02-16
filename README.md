@@ -1,4 +1,5 @@
 Single price grid component challenge from frontendmentor.io
+Mobile First
 
 link:
 
