@@ -47,5 +47,100 @@ table {
 /* layout & styles
 ------------------------------------------*/
 :root {
-    font-family: font-family: 'Karla', sans-serif;;
+	font-family:'Karla', sans-serif;
+	font-size: 16px;
+	--cyan: hsl(179, 62%, 43%);
+	--bright-yellow: hsl(71, 73%, 54%);
+	--light-gray: hsl(204, 43%, 93%);
+	--grayish-blue: hsl(218, 22%, 67%);
+}
+body {
+	background: var(--light-gray);
+}
+.container{
+	width: 375px;
+	margin: auto;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 310px;
+	justify-content: center;
+	align-content: center;
+	box-sizing: border-box;
+}
+.join-community {
+	padding: 30px 25px;
+	background: white;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 2px -2px 10px lightgray, -2px -2px 10px lightgray;
+}
+.join-community-heading {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: var(--cyan);
+}
+.guarantee {
+	font-size: .95rem;
+	font-weight: 700;
+	color: var(--bright-yellow);
+	line-height: 1.3rem;
+	padding: 25px 0;
+}
+.info {
+	font-size: .85rem;
+	color: var(--grayish-blue);
+	line-height: 1.6rem;
+}
+.sign-up {
+	padding: 25px 25px;
+	background: var(--cyan);
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-heading {
+	font-size: 1.15rem;
+	color: white;
+}
+.price-section {
+	padding: 20px 0 10px 0;
+	display: flex;
+	align-items: center;
+}
+.price {
+	font-size: 2rem;
+	font-weight: 700;
+	color: white;
+	padding-right: 10px;
+}
+.price-text {
+	color: hsl(179, 62%, 73%);
+}
+.sign-up-info {
+	font-size: .95rem;
+	color: hsl(179, 82%, 93%);
+	padding-bottom: 35px;
+}
+.btn {
+	align-self: center;
+	background: var(--bright-yellow);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 7px gray;
+	padding: 15px 100px;
+	color: white;
+	font-size: .9rem;
+	font-weight: 700;
+}
+.why-us {
+	padding: 25px 25px;
+	background: hsl(179, 62%, 48%);
+	color: white;
+}
+.why-us-heading {
+	font-size: 1.15rem;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.why-us-list-info {
+	font-size: .82rem;
+	padding: 3px;
 }
